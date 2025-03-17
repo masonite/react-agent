@@ -14,7 +14,6 @@ from langgraph.types import interrupt
 
 from inbox_agent.state import State
 
-
 async def human_node(state: State, config: RunnableConfig) -> Dict[str, Any]:
     """Call the interrupt function to pause the graph and handle user interaction.
 
